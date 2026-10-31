@@ -1,0 +1,34 @@
+
+:root {
+    --font: Open Sans, Arial, Helvetica, sans-serif;
+    --text-color: rgb(240, 240, 240);
+    --outline: 4px solid var(--text-color);
+    --background-color: #000014;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 1rem 4rem;
+}
+
+main {
+    text-align: justify;
+
+    outline: var(--outline);
+    padding: 1rem;
+    overflow: auto;
+}
+
+#foo {
+    outline: var(--outline);
+    background-color: black;
+    image-rendering: crisp-edges;
+
+    margin: 1rem;
+    padding: 1rem;
+    width: 168px;
+    height: auto;
+    float: left;
+}
