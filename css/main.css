@@ -1,0 +1,67 @@
+
+:root {
+    --font: 20px 'Open Sans', sans-serif;
+    --text-color: rgb(240, 240, 240);
+    --outline: 4px solid var(--text-color);
+    --background-color: #000014;
+}
+
+body {
+    font: var(--font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 1rem 32px;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+
+    margin-right: 1rem;
+}
+
+main {
+    text-align: justify;
+
+    outline: var(--outline);
+    padding: 1rem;
+    overflow: auto;
+}
+
+footer {
+    font-size: small;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#profile {
+    outline: var(--outline);
+    background-color: black;
+    image-rendering: crisp-edges;
+
+    margin: 1rem;
+    padding: 1rem;
+    width: 168px;
+    height: auto;
+    float: left;
+}
+
+address dt {
+    font-weight: bold;
+    font-size: larger;
+}
+address dd a {
+    text-decoration: none;
+    color: var(--text-color);
+}
