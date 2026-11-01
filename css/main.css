@@ -56,7 +56,8 @@ footer {
     background-color: black;
     image-rendering: crisp-edges;
 
-    margin: 1rem 1rem 0;
+    box-sizing: border-box;
+    margin: 1rem;
     padding: 1rem;
     width: 168px;
     height: auto;
