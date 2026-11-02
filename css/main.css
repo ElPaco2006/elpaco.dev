@@ -68,7 +68,8 @@ address dt {
     font-weight: bold;
     font-size: larger;
 }
-address dd a {
+
+.link {
     text-decoration: underline var(--text-color) wavy ;
     color: var(--text-color);
 }
